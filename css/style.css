@@ -146,7 +146,7 @@ header, nav, section, footer {
 
 .banner span.day{ font-size: 60px; line-height: 52px; font-weight: bold; }
 .banner span.month{ font-size: 16px; line-height: 20px; font-weight: bold; }
-.banner span.year{ font-size: 20px; line-height: 20px; letter-spacing: 10px;}
+.banner span.year{ font-size: 20px; line-height: 20px; letter-spacing: 10px; margin-left:10px;}
 .banner span.place{ font-size: 20px; line-height: 22px; border-top: 1px dotted #222; margin-top:3px; padding: 5px; letter-spacing: 2px;}
 
 nav.top ul {
