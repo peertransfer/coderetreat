@@ -76,7 +76,6 @@ body {
 
 .color_odd {
   background: #fff;
-  box-shadow: inset 0px 0 20px 0 rgba(0, 0, 0, .3);
   }
 .color_even {
   background: #eee;
@@ -252,12 +251,7 @@ img.img_left {
 
 
 
-/* ===== media with different viewport classes ============================================ */
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
 
-/* ===== non-semantic helper classes ============================================ */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .ir br { display: none; }
 .hidden { display: none !important; visibility: hidden; }
@@ -284,22 +278,3 @@ img.img_left {
 .width_450 { width: 450px; }
 
 .left p, .right p { margin-top: 0;}
-
-/* ===== media queries ========================================================== */
-@media only screen and (min-width: 480px) { /* Style adjustments for viewports 480px and over go here */ }
-@media only screen and (min-width: 768px) { /* Style adjustments for viewports 768px and over go here */ }
-/* ===== print styles ========================================================== */
-@media print {
-  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
-  a, a:visited { text-decoration: underline; }
-  a[href]:after { content: " (" attr(href) ")"; }
-  abbr[title]:after { content: " (" attr(title) ")"; }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
-  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  thead { display: table-header-group; }
-  tr, img { page-break-inside: avoid; }
-  img { max-width: 100% !important; }
-  @page { margin: 0.5cm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3 { page-break-after: avoid; }
-}
